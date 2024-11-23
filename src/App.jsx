@@ -75,13 +75,13 @@ function App() {
         <div className="flex flex-wrap justify-center gap-8">
           <a href="https://link-to-buy-memecoin.com" target="_blank" rel="noopener noreferrer">
             <button className="w-64 h-12 bg-gradient-to-r flex items-center justify-center from-gray-950 to-green-900 hover:from-orange-600 hover:to-yellow-600 text-white py-4 rounded-lg font-semibold shadow-lg transform hover:-translate-y-1 transition duration-300">
-              <span ><img className="hover:animate-spin" src='public/pumpfun.png' width="50px"/></span>
+              <span ><img className="hover:animate-spin" src='/pumpfun.png' width="50px"/></span>
               Buy on Pumpfun
             </button>
           </a>
           <a href="https://another-link-to-buy-memecoin.com" target="_blank" rel="noopener noreferrer">
             <button className="w-64 h-12  flex items-center justify-center bg-gradient-to-r from-gray-950 to-green-900 hover:from-teal-600 hover:to-green-600 text-white py-4 rounded-lg font-semibold shadow-lg transform hover:-translate-y-1 transition duration-300">
-            <span ><img className="hover:animate-pulse" src='public/jupiter.png' width="35px"/></span>
+            <span ><img className="hover:animate-pulse" src='/jupiter.png' width="35px"/></span>
              Buy on Jupiter
             </button>
           </a>
