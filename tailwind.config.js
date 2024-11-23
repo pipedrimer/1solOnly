@@ -4,7 +4,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
     extend: { backgroundImage: {
-      'grad-bg' : "url('./public/blur1.png')"
+      'grad-bg' : "url('`/blur1.png')"
     },},
   },
   plugins: [],
