@@ -15,7 +15,7 @@ function App() {
         <div className=" mx-auto md:mx-4 md:px-8 flex justify-between items-center md:mt-4 px-4 mt-2">
           {/* Logo Section */}
           <div className="flex items-center justify-center md:space-x-4 space-x-5 lg:space-x-10 mr-10">
-            <img src="/public/1sol.png" alt="1Sol-logo" className="md:h-20 h-10 w-auto rounded-md shadow-md"/>
+            <img src="/1sol.png" alt="1Sol-logo" className="md:h-20 h-10 w-auto rounded-md shadow-md"/>
             <h1 className="md:text-6xl text-3xl font-extrabold text-transparent mt-6 bg-clip-text font-serif bg-gradient-to-r from-green-600 to-purple-800 mb-6">1SOL</h1>
           </div>
 
@@ -55,7 +55,7 @@ function App() {
       
 
       {/* Hero Section */}
-      <header className="flex flex-col items-center justify-center py-20 px-6 text-center bg-cover bg-center" style={{ backgroundImage: 'url(/path-to-your-background-image.jpg)' }}>
+      <header className="flex flex-col items-center justify-center py-20 px-6 text-center bg-cover bg-center">
         <h1 className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-gray-500 mb-6">
           WELCOME!
         </h1>
@@ -73,7 +73,7 @@ function App() {
       <section id="buy" className="container bg-grad-bg bg-contain   mx-auto py-20 px-6 rounded-lg shadow-lg mt-10 w-11/12 max-w-5xl">
       <div className='flex justify-center m-auto mb-10 border- rounded-lg max-w-sm'><h1 className='text-6xl animate-bounce font-extrabold font-mono text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-green-600 mb-6'>BUY $1SOL</h1></div>
         <div className="flex flex-wrap justify-center gap-8">
-          <a href="https://link-to-buy-memecoin.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://pump.fun/coin/A8zvtBuPaxVLoB7QbybeDQNYh1ZpvWnFKNdzPupKpump" target="_blank" rel="noopener noreferrer">
             <button className="w-64 h-12 bg-gradient-to-r flex items-center justify-center from-gray-950 to-green-900 hover:from-orange-600 hover:to-yellow-600 text-white py-4 rounded-lg font-semibold shadow-lg transform hover:-translate-y-1 transition duration-300">
               <span ><img className="hover:animate-spin" src='/pumpfun.png' width="50px"/></span>
               Buy on Pumpfun
@@ -89,12 +89,12 @@ function App() {
       </section>
       
       <section className="container flex-col  mx-auto py-20 px-6 bg-gray-950 rounded-lg shadow-lg mt-10 w-11/12 max-w-5xl">
-       <img src="/public/banner.png" width="1000px"/>
+       <img src="/banner.png" width="1000px"/>
        <div className='flex justify-center items-center mt-5 '><span className='font-mono tracking-widest p-2 rounded-lg animate-bounce bg-gradient-to-r from-gray-950 to-green-900' > 1SOL IS ALL YOU NEED</span></div>
       </section>
 
       <section id="contact" className="container mx-auto py-20 px-6 bg-gray-950 rounded-lg shadow-lg mt-10 w-11/12 max-w-5xl">
-       <img src="/public/1sol.png" width="1000px"/>
+       <img src="/1sol.png" width="1000px"/>
       </section>
 
 
